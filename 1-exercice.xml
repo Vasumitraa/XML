@@ -113,31 +113,56 @@
         </livre>
         <livre id="11">
             <titre>Dead Mount Death Play vol.11</titre>
-            <auteur>Ryohgo Narita / Shinta Fujimoto</auteur>
+            <auteur>
+                <prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
             <genre>Seinen</genre>
             <date format="DD-MM-YYYY">07/12/2023</date>
         </livre>
         <livre id="12">
             <titre>Dead Mount Death Play vol.12</titre>
-            <auteur>Ryohgo Narita / Shinta Fujimoto</auteur>
+            <auteur>
+                <prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
             <genre>Seinen</genre>
             <date format="DD-MM-YYYY">04/07/2024</date>
         </livre>
         <livre id="13">
             <titre>Dead Mount Death Play vol.13</titre>
-            <auteur>Ryohgo Narita / Shinta Fujimoto</auteur>
+            <auteur>
+                <prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
             <genre>Seinen</genre>
             <date format="DD-MM-YYYY">02/10/2025</date>
         </livre>
         <livre id="5">
             <titre>Dead Mount Death Play vol.14</titre>
-            <auteur>Ryohgo Narita / Shinta Fujimoto</auteur>
+            <auteur>
+<prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
             <genre>Seinen</genre>
             <date format="DD-MM-YYYY">16/04/2026</date>
         </livre>
         <livre id="5">
             <titre>Dead Mount Death Play vol.15</titre>
-            <auteur>Ryohgo Narita / Shinta Fujimoto</auteur>
+            <auteur>
+<prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
             <genre>Seinen</genre>
             <date format="DD-MM-YYYY">17/09/2026</date>
         </livre>
