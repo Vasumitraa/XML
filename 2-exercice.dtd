@@ -1,0 +1,3 @@
+<!ELEMENT annuaire (personnes)>
+<!ELEMENT personnes (personne+)>
+<!ATTLIST personne id CDATA #REQUIRED>
