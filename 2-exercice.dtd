@@ -1,3 +1,11 @@
 <!ELEMENT annuaire (personnes)>
 <!ELEMENT personnes (personne+)>
+<!ELEMENT personne (nom, prenom, genre, adresse, telephones, emails)>
 <!ATTLIST personne id CDATA #REQUIRED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT pays (#PCDATA)>
+<!ELEMENT telephones (#PCDATA)>
+<!ELEMENT emails (#PCDATA)>

@@ -1,45 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF8"?>
+<!DOCTYPE annuaire SYSTEM "2-exercice.dtd">
 <annuaire>   
     <personnes>
         <personne id="1">
             <nom>Pascal</nom>
-            <prénom>Cathleen</prénom>
+            <prenom>Cathleen</prenom>
             <genre>Femme</genre>
             <adresse>
                 <pays>Belgique</pays>
                 <ville>Schaerbeek</ville>
                 <rue>Alexandre M********</rue>
-                <numéro>119</numéro>
+                <numero>119</numero>
             </adresse>
-            <téléphones>
+            <telephones>
                 <portable>0456/**.**.**</portable>
                 <fixe></fixe>
                 <bureau></bureau>
-            </téléphones>
-            <e-mails>
+            </telephones>
+            <emails>
                 <personnelle>pascal.cathleen****@gmail.com</personnelle>
                 <professionnelle></professionnelle>
-            </e-mails>
+            </emails>
         </personne>
         <personne id="2">
             <nom>Pascal</nom>
-            <prénom>Faustine</prénom>
+            <prenom>Faustine</prenom>
             <genre>Agenre</genre>
             <adresse>
                 <pays>Belgique</pays>
                 <ville>Schaerbeek</ville>
                 <rue>Alexandre M********</rue>
-                <numéro>119</numéro>
+                <numero>119</numero>
             </adresse>
-            <téléphones>
+            <telephones>
                 <portable>0456/**.**.**</portable>
                 <fixe></fixe>
                 <bureau></bureau>
-            </téléphones>
-            <e-mails>
+            </telephones>
+            <emails>
                 <personnelle>pascal.faustine****@gmail.com</personnelle>
                 <professionnelle></professionnelle>
-            </e-mails>
+            </emails>
         </personne>
     </personnes>
 </annuaire> 
