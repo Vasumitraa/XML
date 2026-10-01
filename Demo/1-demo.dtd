@@ -1,0 +1,5 @@
+<!ELEMENT dates (date+)>
+<!ELEMENT date (jour, mois, année)>
+<!ELEMENT jour (#PCDATA)>
+<!ELEMENT mois (#PCDATA)>
+<!ELEMENT année (#PCDATA)>

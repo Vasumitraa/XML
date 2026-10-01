@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE livres SYSTEM "1-exercice.dtd">
+    <livres>
+        <livre id="1">
+            <titre>Dead Mount Death Play vol.1</titre>
+            <auteur>
+                <prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">21/03/2019</date>
+        </livre>
+        <livre id="2">
+            <titre>Dead Mount Death Play vol.2</titre>
+            <auteur>
+                <prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">09/05/2019</date>
+        </livre>
+        <livre id="3">
+            <titre>Dead Mount Death Play vol.3</titre>
+            <auteur>
+                <prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">29/08/2019</date>
+        </livre>
+        <livre id="4">
+            <titre>Dead Mount Death Play vol.4</titre>
+            <auteur>
+                <prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">19/03/2020</date>
+        </livre>
+        <livre id="5">
+            <titre>Dead Mount Death Play vol.5</titre>
+            <auteur>
+                <prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">13/08/2020</date>
+        </livre>
+        <livre id="6">
+            <titre>Dead Mount Death Play vol.6</titre>
+            <auteur>
+                <prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">18/03/2021</date>
+        </livre>
+        <livre id="7">
+            <titre>Dead Mount Death Play vol.7</titre>
+            <auteur>
+                <prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">20/01/2022</date>
+        </livre>
+        <livre id="8">
+            <titre>Dead Mount Death Play vol.8</titre>
+            <auteur>
+                <prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">16/08/2022</date>
+        </livre>
+        <livre id="9">
+            <titre>Dead Mount Death Play vol.9</titre>
+            <auteur>
+                <prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">20/10/2022</date>
+        </livre>
+        <livre id="10">
+            <titre>Dead Mount Death Play vol.10</titre>
+            <auteur>
+                <prenom>Ryohgo</prenom>
+                <nom>Narita</nom>
+                <prenom>Shinta</prenom>
+                <nom>Fujimoto</nom>
+            </auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">06/04/2023</date>
+        </livre>
+        <livre id="11">
+            <titre>Dead Mount Death Play vol.11</titre>
+            <auteur>Ryohgo Narita / Shinta Fujimoto</auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">07/12/2023</date>
+        </livre>
+        <livre id="12">
+            <titre>Dead Mount Death Play vol.12</titre>
+            <auteur>Ryohgo Narita / Shinta Fujimoto</auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">04/07/2024</date>
+        </livre>
+        <livre id="13">
+            <titre>Dead Mount Death Play vol.13</titre>
+            <auteur>Ryohgo Narita / Shinta Fujimoto</auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">02/10/2025</date>
+        </livre>
+        <livre id="5">
+            <titre>Dead Mount Death Play vol.14</titre>
+            <auteur>Ryohgo Narita / Shinta Fujimoto</auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">16/04/2026</date>
+        </livre>
+        <livre id="5">
+            <titre>Dead Mount Death Play vol.15</titre>
+            <auteur>Ryohgo Narita / Shinta Fujimoto</auteur>
+            <genre>Seinen</genre>
+            <date format="DD-MM-YYYY">17/09/2026</date>
+        </livre>
+    </livres>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annuaire>   
+    <personnes>
+        <personne id="1">
+            <nom>Pascal</nom>
+            <prénom>Cathleen</prénom>
+            <genre>Femme</genre>
+            <adresse>
+                <pays>Belgique</pays>
+                <ville>Schaerbeek</ville>
+                <rue>Alexandre M********</rue>
+                <numéro>119</numéro>
+            </adresse>
+            <téléphones>
+                <portable>0456/**.**.**</portable>
+                <fixe></fixe>
+                <bureau></bureau>
+            </téléphones>
+            <e-mails>
+                <personnelle>pascal.cathleen****@gmail.com</personnelle>
+                <professionnelle></professionnelle>
+            </e-mails>
+        </personne>
+        <personne id="2">
+            <nom>Pascal</nom>
+            <prénom>Faustine</prénom>
+            <genre>Agenre</genre>
+            <adresse>
+                <pays>Belgique</pays>
+                <ville>Schaerbeek</ville>
+                <rue>Alexandre M********</rue>
+                <numéro>119</numéro>
+            </adresse>
+            <téléphones>
+                <portable>0456/**.**.**</portable>
+                <fixe></fixe>
+                <bureau></bureau>
+            </téléphones>
+            <e-mails>
+                <personnelle>pascal.faustine****@gmail.com</personnelle>
+                <professionnelle></professionnelle>
+            </e-mails>
+        </personne>
+    </personnes>
+</annuaire> 
