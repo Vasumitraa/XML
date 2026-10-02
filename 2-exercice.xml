@@ -5,7 +5,7 @@
         <personne id="P1">
             <nom>Pascal</nom>
             <prenom>Cathleen</prenom>
-            <genre>Femme</genre> <!-- transformer genre en attribut -->
+            <genre type="F">Femme</genre>
             <adresse>
                 <pays>Belgique</pays>
                 <ville>Schaerbeek</ville>
@@ -25,7 +25,7 @@
         <personne id="P2">
             <nom>Pascal</nom>
             <prenom>Faustine</prenom>
-            <genre>Agenre</genre>
+            <genre type="X">Agenre</genre>
             <adresse>
                 <pays>Belgique</pays>
                 <ville>Schaerbeek</ville>
