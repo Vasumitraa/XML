@@ -1,17 +1,22 @@
 <!ELEMENT annuaire (personnes)>
 <!ELEMENT personnes (personne+)>
-<!ELEMENT personne (nom, prenom+, genre, adresse, telephones+, emails+)>
-<!ATTLIST personne id CDATA #REQUIRED>
+
+<!ELEMENT personne (nom, prenom+, genre, adresse, telephones, emails)>
+<!ATTLIST personne id ID #REQUIRED>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT prenom (#PCDATA)>
 <!ELEMENT genre (#PCDATA)>
+
 <!ELEMENT adresse (pays, ville, rue, numero)>
 <!ELEMENT pays (#PCDATA)>
 <!ELEMENT ville (#PCDATA)>
 <!ELEMENT rue (#PCDATA)>
 <!ELEMENT numero (#PCDATA)>
-<!ELEMENT telephones (telephone)>
+
+<!ELEMENT telephones (telephone+)>
 <!ELEMENT telephone (#PCDATA)>
-<!ATTLIST telephone type CDATA #IMPLIED>
-<!ELEMENT emails (email)>
-<!ATTLIST email type CDATA #IMPLIED>
+<!ATTLIST telephone type (portable | fixe | bureau) #IMPLIED>
+
+<!ELEMENT emails (email+)>
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email type (personnelle | professionnelle) #IMPLIED>

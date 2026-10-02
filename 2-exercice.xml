@@ -2,10 +2,10 @@
 <!DOCTYPE annuaire SYSTEM "2-exercice.dtd">
 <annuaire>   
     <personnes>
-        <personne id="1">
+        <personne id="P1">
             <nom>Pascal</nom>
             <prenom>Cathleen</prenom>
-            <genre>Femme</genre>
+            <genre>Femme</genre> <!-- transformer genre en attribut -->
             <adresse>
                 <pays>Belgique</pays>
                 <ville>Schaerbeek</ville>
@@ -18,11 +18,11 @@
                 <telephone type="bureau"></telephone>
             </telephones>
             <emails>
-                <personnelle>pascal.cathleen****@gmail.com</personnelle>
-                <professionnelle></professionnelle>
+                <email type="personnelle">pascal.cathleen****@gmail.com</email>
+                <email type="professionnelle"></email>
             </emails>
         </personne>
-        <personne id="2">
+        <personne id="P2">
             <nom>Pascal</nom>
             <prenom>Faustine</prenom>
             <genre>Agenre</genre>
@@ -33,13 +33,13 @@
                 <numero>119</numero>
             </adresse>
             <telephones>
-                <portable>0456/**.**.**</portable>
-                <fixe></fixe>
-                <bureau></bureau>
+                <telephone type="portable">0456/**.**.**</telephone>
+                <telephone type="fixe"></telephone>
+                <telephone type="bureau"></telephone>
             </telephones>
             <emails>
-                <personnelle>pascal.faustine****@gmail.com</personnelle>
-                <professionnelle></professionnelle>
+                <email type="personnelle">pascal.faustine****@gmail.com</email>
+                <email type="professionnelle"></email>
             </emails>
         </personne>
     </personnes>
