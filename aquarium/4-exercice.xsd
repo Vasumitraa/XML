@@ -1,27 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:simpleType name="ageType">
+    <xs:restriction base="xs:int">
+        <xs:minInclusive value="0"></xs:minInclusive>
+        <xs:maxInclusive value="30"></xs:maxInclusive>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="nemoType">
+    <xs:sequence>
+        <xs:element name="nom" type="xs:string"></xs:element>
+        <xs:element name="prenom" type="xs:string"></xs:element>
+        <xs:element name="specialite" type="xs:string"></xs:element>
+        <xs:element name="age" type="ageType">
+        </xs:element>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="calamarType">
+    <xs:sequence>
+        <xs:element name="nom" type="xs:string"></xs:element>
+        <xs:element name="prenom" type="xs:string"></xs:element>
+        <xs:element name="specialite" type="xs:string"></xs:element>
+        <xs:element name="age" type="ageType">
+        </xs:element>
+    </xs:sequence>
+</xs:complexType>
+
     <xs:element name="aquarium">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="nemos">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="nemo" minOccurs="1" maxOccurs="unbounded">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="nom" type="xs:string"></xs:element>
-                                        <xs:element name="prenom" type="xs:string"></xs:element>
-                                        <xs:element name="specialite" type="xs:string"></xs:element>
-                                        <xs:element name="age">
-                                            <xs:simpleType>
-                                                <xs:restriction base="xs:int">
-                                                    <xs:minInclusive value="0"></xs:minInclusive>
-                                                    <xs:maxInclusive value="30"></xs:maxInclusive>
-                                                </xs:restriction>
-                                            </xs:simpleType>
-                                        </xs:element>
-                                    </xs:sequence>
-                                </xs:complexType>
+                            <xs:element name="nemo" type="nemoType" minOccurs="1" maxOccurs="unbounded">
                             </xs:element>
                         </xs:sequence>
                     </xs:complexType>
@@ -29,4 +42,18 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    <xs:complexType name="calamars">
+        <xs:sequence>
+            <xs:element name="calamar" type="calamarType" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nom" type="xs:string"></xs:element>
+                        <xs:element name="prenom" type="xs:string"></xs:element>
+                        <xs:element name="specialite" type="xs:string"></xs:element>
+                        <xs:element name="age" type="ageType"></xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
 </xs:schema>

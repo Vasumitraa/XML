@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aquarium xmlns:xsi
+<aquarium xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="4-exercice.xsd">
+    <nemos>
+        <nemo>
+            
+        </nemo>
+    </nemos>    
+</aquarium>  
