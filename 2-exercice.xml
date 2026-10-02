@@ -13,9 +13,9 @@
                 <numero>119</numero>
             </adresse>
             <telephones>
-                <portable>0456/**.**.**</portable>
-                <fixe></fixe>
-                <bureau></bureau>
+                <telephone type="portable">0456/**.**.**</telephone>
+                <telephone type="fixe"></telephone>
+                <telephone type="bureau"></telephone>
             </telephones>
             <emails>
                 <personnelle>pascal.cathleen****@gmail.com</personnelle>
