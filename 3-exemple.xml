@@ -12,8 +12,8 @@ xsi:noNamespaceSchemaLocation="3-exemple.xsd"
     </date>
     <date>
         <time format="24-hour">17:00</time>
-        <month>1</month>
         <day>1</day>
+        <month>1</month>
         <year>1970</year>
     </date>
 </dates>
