@@ -2,7 +2,7 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
 <xsd:element name="dates">
-<xsd:complexType>
+<xsd:complexType name="dates">
     <xsd:sequence>
         <xsd:element name="day"></xsd:element>
         <xsd:element name="month"></xsd:element>
